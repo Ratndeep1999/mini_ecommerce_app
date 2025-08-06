@@ -34,7 +34,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   /// Electronics
                   InkWell(
                     onTap: () {
-                      Navigator.pushNamed(context, kCategoryScreen);
+                      Navigator.pushNamed(
+                        context,
+                        kCategoryScreen,
+                        arguments: 'Electronics',
+                      );
                     },
                     child: Container(
                       height: MediaQuery.of(context).size.height * 0.2,
@@ -54,10 +58,15 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                   ),
+
                   /// Fashion
                   InkWell(
                     onTap: () {
-                      Navigator.pushNamed(context, kCategoryScreen);
+                      Navigator.pushNamed(
+                        context,
+                        kCategoryScreen,
+                        arguments: 'Fashion',
+                      );
                     },
                     child: Container(
                       height: MediaQuery.of(context).size.height * 0.2,
@@ -85,7 +94,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   /// Beauty
                   InkWell(
                     onTap: () {
-                      Navigator.pushNamed(context, kCategoryScreen);
+                      Navigator.pushNamed(
+                        context,
+                        kCategoryScreen,
+                        arguments: 'Beauty',
+                      );
                     },
                     child: Container(
                       height: MediaQuery.of(context).size.height * 0.2,
@@ -105,10 +118,15 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                   ),
+
                   /// Kitchen
                   InkWell(
                     onTap: () {
-                      Navigator.pushNamed(context, kCategoryScreen);
+                      Navigator.pushNamed(
+                        context,
+                        kCategoryScreen,
+                        arguments: 'Kitchen',
+                      );
                     },
                     child: Container(
                       height: MediaQuery.of(context).size.height * 0.2,
@@ -136,7 +154,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   /// Sports
                   InkWell(
                     onTap: () {
-                      Navigator.pushNamed(context, kCategoryScreen);
+                      Navigator.pushNamed(
+                        context,
+                        kCategoryScreen,
+                        arguments: 'Sports',
+                      );
                     },
                     child: Container(
                       height: MediaQuery.of(context).size.height * 0.2,
@@ -156,10 +178,15 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                   ),
+
                   /// Groceries
                   InkWell(
                     onTap: () {
-                      Navigator.pushNamed(context, kCategoryScreen);
+                      Navigator.pushNamed(
+                        context,
+                        kCategoryScreen,
+                        arguments: 'Groceries',
+                      );
                     },
                     child: Container(
                       height: MediaQuery.of(context).size.height * 0.2,
